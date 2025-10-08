@@ -20,8 +20,8 @@ Route::get('/products', function () {
     return view('products.index');
 })->name('products');
 
-Route::get('/category-prodcuts', function () {
-    return view('categories');
+Route::get('/category-products', function () {
+    return view('dashboard.category_products.index');
 })->name('categories');
 
 require __DIR__.'/auth.php';
