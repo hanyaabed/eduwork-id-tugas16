@@ -7,9 +7,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="{{ route('home_page') }}">Home</a></li>
+                {{-- <li class="nav-item"><a class="nav-link" href="{{ route('home_page') }}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ route('product_page') }}">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ route('cart_page') }}">Cart</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ route('cart_page') }}">Cart</a></li> --}}
                 @if (Route::has('login'))
                     @auth
                         <li class="nav-item"><a class="nav-link" href="{{ url('/dashboard') }}">Dashboard</a></li>

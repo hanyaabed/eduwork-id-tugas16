@@ -17,7 +17,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/products', function () {
-    return view('products.index');
+    return view('dashboard.products.index');
 })->name('products');
 
 Route::get('/category-products', function () {
